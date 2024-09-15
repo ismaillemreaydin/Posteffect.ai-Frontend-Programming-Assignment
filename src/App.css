@@ -1,0 +1,23 @@
+/* App.css */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Yatay olarak ortalamak için */
+  align-items: center;      /* Dikey olarak ortalamak için */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+}

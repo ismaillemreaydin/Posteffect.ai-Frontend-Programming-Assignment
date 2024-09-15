@@ -1,0 +1,38 @@
+/* Başlıkların mavi renk olması için */
+.blue-header {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Ana düzen için, bileşenleri ortalamak */
+.email-selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Aradaki boşluğu arttırdık */
+    padding-top: 20px;
+}
+
+/* Alıcı kutuları için stil */
+.recipient-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Toggle alanlarının stilini tanımladık */
+.recipient-toggle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Seçilen ve mevcut alıcılar arasında daha fazla boşluk ekleme */
+.recipient-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
